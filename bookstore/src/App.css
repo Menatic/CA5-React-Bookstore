@@ -1,0 +1,27 @@
+/* src/App.css */
+.app-container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.register-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Position the Register button in the top right corner */
+.register-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

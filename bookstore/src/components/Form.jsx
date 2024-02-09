@@ -60,7 +60,7 @@ export default function App() {
             placeholder="Password"
             {...register("password", {
               required: "Password is required!",
-              minLength: { value: 4, message: "Password must be more than 4 characters" },
+              minLength: { value: 10, message: "Password must be more than 10 characters" },
               maxLength: { value: 20, message: "Password cannot be more than 20 characters" },
             })}
           />
